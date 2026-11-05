@@ -1,0 +1,14 @@
+/* App custom styles */
+.slider-thumb::-webkit-slider-thumb {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #38bdf8;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.7);
+  transition: transform 0.1s ease;
+}
+.slider-thumb::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
